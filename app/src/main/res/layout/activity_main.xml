@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.restcalls.MainActivity">
+
+    <Button
+        android:id="@+id/btnHttp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="makingRestCalls"
+        android:text="Navite HTTP" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="makingRestCalls"
+        android:text="Ok HTTP" />
+    <Button
+        android:id="@+id/btnOkAsync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="makingRestCalls"
+        android:text="Ok HTTP Async" />
+    <Button
+        android:id="@+id/btnRetrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="makingRestCalls"
+        android:text="Retrofit HTTP" />
+</LinearLayout>
